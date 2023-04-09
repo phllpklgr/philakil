@@ -8,5 +8,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f 
 
 # Depicting page with .html extension
-RewriteRule ^blog?$ ./pages/blog.html
-RewriteRule ^contact?$ ./pages/contact.html
+RewriteRule ^blog?$ pages/blog.html
+RewriteRule ^contact?$ pages/contact.html
