@@ -8,4 +8,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f 
 
 # Depicting page with .html extension
-RewriteRule ^(.*)$ $1.html [NC, L]
+RewriteRule ^pages/(.*)$ $1.html [NC, L]
