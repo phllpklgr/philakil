@@ -1,4 +1,3 @@
-RewriteEngine on
-Options -Indexes
-RewriteRule ^blog?$ pages/blog.html
-RewriteRule ^contact?$ pages/contact.html
+RewriteEngine On
+RewriteCond "pages/%{REQUEST_FILENAME}" !-f
+RewriteRule "pages\.html"$ $1 [NC,L]
