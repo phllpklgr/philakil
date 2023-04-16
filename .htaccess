@@ -1,3 +1,2 @@
 RewriteEngine On
-RewriteRule ^blog/ /pages/blog.html
-RewriteRule ^contact/ /pages/contact.html [L]
+RewriteRule ^pages/(.*)$ /$1 [R=301,NC,L]
