@@ -1,2 +1,2 @@
-RewriteEngine On
-RewriteRule ^pages/(.*)$ /$1 [R=301,NC,L]
+#RewriteEngine On
+#RewriteRule ^pages/(.*)$ /$1 [R=301,NC,L]
