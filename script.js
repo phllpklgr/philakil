@@ -1,3 +1,3 @@
 function enterSite() {
-    window.location.href = "pages/";
+    window.location.href = "pages/index.html";
 }
