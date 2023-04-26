@@ -41,16 +41,16 @@
     align-items: center;
   }
   
-  .carousel-image.active .image-overlay {
+  .carousel-image .image-overlay {
     opacity: 1;
   }
   
-  .carousel-image .overlay h1 {
+  .carousel-image .image-overlay h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
   }
   
-  .carousel-image .overlay h3 {
+  .carousel-image .image-overlay h3 {
     font-size: 1.2rem;
     margin-bottom: 0;
   }
