@@ -25,7 +25,7 @@
     object-fit: cover;
   }
   
-  .carousel-image .overlay {
+  .carousel-image .image-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -41,16 +41,16 @@
     align-items: center;
   }
   
-  .carousel-image.active .overlay {
+  .carousel-image.active .image-overlay {
     opacity: 1;
   }
   
-  .carousel-image .overlay h3 {
+  .carousel-image .overlay h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
   }
   
-  .carousel-image .overlay p {
+  .carousel-image .overlay h3 {
     font-size: 1.2rem;
     margin-bottom: 0;
   }
