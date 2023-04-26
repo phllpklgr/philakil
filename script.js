@@ -1,11 +1,13 @@
-function hideElements() {
-    const elementsToHide = document.querySelectorAll('body > *:not(#page-text)');
-    for (let i = 0; i < elementsToHide.length; i++) {
-        elementsToHide[i].style.display = 'none';
-    }
-    const pageText = document.getElementById('page-text');
-    pageText.style.animation = 'slide-out 1s ease-in-out forwards';
-    setTimeout(() => {
-        window.location.href = "pages/";
-    }, 1000);
-}
+// Select the button element
+const button = document.querySelector('button');
+
+// Add a click event listener to the button
+button.addEventListener('click', function() {
+  // Redirect the page to the desired URL
+  window.location.href = '/pages';
+  
+  // Hide the page content
+  const pageContent = document.querySelector('.page-content');
+  pageContent.style.opacity = '0';
+  pageContent.style.pointerEvents = 'none';
+});
