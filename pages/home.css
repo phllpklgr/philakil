@@ -3,29 +3,29 @@
     width: 100%;
     height: 500px;
     overflow: hidden;
-  }
-  
-  .carousel {
+}
+
+.carousel {
     position: absolute;
     width: 100%;
     height: 100%;
     display: flex;
     transition: transform 0.5s ease-in-out;
-  }
-  
-  .carousel-image {
+}
+
+.carousel-image {
     position: relative;
     flex: 1;
     height: 100%;
-  }
-  
-  .carousel-image img {
+}
+
+.carousel-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  
-  .carousel-image .image-overlay {
+}
+
+.carousel-image .image-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -39,23 +39,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  .carousel-image .image-overlay {
+}
+
+/* Corrected the typo in the following CSS selector */
+.carousel-image:hover .image-overlay {
     opacity: 1;
-  }
-  
-  .carousel-image .image-overlay h1 {
+}
+
+.carousel-image .image-overlay h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
-  }
-  
-  .carousel-image .image-overlay h3 {
+}
+
+.carousel-image .image-overlay h3 {
     font-size: 1.2rem;
     margin-bottom: 0;
-  }
-  
-  .carousel-control {
+}
+
+.carousel-control {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -71,9 +72,8 @@
     align-items: center;
     font-size: 1.2rem;
     transition: background-color 0.5s ease-in-out;
-  }
-  
-  .carousel-control:hover {
+}
+
+.carousel-control:hover {
     background-color: rgba(255, 255, 255, 0.8);
-  }
-  
+}
