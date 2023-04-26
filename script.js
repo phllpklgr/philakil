@@ -6,6 +6,6 @@ function hideElements() {
     const pageText = document.getElementById('page-text');
     pageText.style.animation = 'slide-out 1s ease-in-out forwards';
     setTimeout(() => {
-        window.location.href = 'main.html';
+        window.location.href = "pages/";
     }, 1000);
 }

@@ -1,4 +1,5 @@
-body {
+body 
+{
     background-color: black;
     background-image: url('background-image.jpg');
     background-position: center;
@@ -7,42 +8,34 @@ body {
     opacity: 0;
     animation: fade-in 2s ease-in-out forwards;
 }
-
-@keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+  
+@keyframes fade-in 
+{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
-
-.side-entrance {
+  
+.side-entrance
+{
+    text-align: center;
     margin-left: -100%;
     animation: slide-in 1s ease-in-out forwards;
 }
-
-@keyframes slide-in {
-    0% {
-        margin-left: -100%;
-    }
-
-    100% {
-        margin-left: 0;
-    }
+  
+@keyframes slide-in 
+{
+    0% { margin-left: -100%; }
+    100% { margin-left: 0; }
 }
-
-.side-entrance.slide-out {
-    animation: slide-out 1s ease-in-out forwards;
-}
-
-@keyframes slide-out {
-    0% {
-        margin-left: 0;
-    }
-
-    100% {
-        margin-left: -100%;
-    }
+  
+button 
+{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
 }
