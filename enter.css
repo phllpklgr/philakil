@@ -4,7 +4,7 @@ body
     background-image: url('background-image.jpg');
     background-position: center;
     background-size: cover;
-    color: white;
+    color: rgb(26, 65, 122);
     opacity: 0;
     animation: fade-in 2s ease-in-out forwards;
 }
