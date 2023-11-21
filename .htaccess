@@ -1,3 +1,10 @@
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteEngine on
+
+# Redirect from phllpklgr.com/pages/ to phllpklgr.com
+RewriteRule ^pages/?$ / [L,R=301]
+
+# Redirect from phllpklgr.com/pages/about to phllpklgr.com/about
+RewriteRule ^pages/about/?$ /about [L,R=301]
+
+# Redirect from phllpklgr.com/pages/contact to phllpklgr.com/contact
+RewriteRule ^pages/contact/?$ /contact [L,R=301]
