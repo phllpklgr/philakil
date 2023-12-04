@@ -3,6 +3,8 @@ body {
     overflow-y: hidden;
     overscroll-behavior-x: auto;
     overscroll-behavior-y: none;
+    width: 100vw;
+    height: 100vh;
 }
 
 .initial-view {
