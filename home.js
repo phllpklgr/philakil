@@ -37,3 +37,5 @@ function updateCarousel() {
 
 // Initialize carousel with first image active
 updateCarousel();
+
+// Horizontal scrolling behavior
